@@ -38,10 +38,10 @@ function validateMissionFile(filePath) {
   const filename = path.basename(filePath);
   const dirname = path.basename(path.dirname(filePath));
 
-  // Check filename format
-  const filenameRegex = /^kb-[\w-]+-(?:a[12]|b[12]|a[12]-a[12])\.md$/;
+  // Check filename format (no kb- prefix)
+  const filenameRegex = /^[\w-]+-(?:a[12]|b[12]|a[12]-a[12])\.md$/;
   if (!filenameRegex.test(filename)) {
-    errors.push(`Filename format invalid. Expected: kb-[slug]-[level].md, got: ${filename}`);
+    errors.push(`Filename format invalid. Expected: [slug]-[level].md, got: ${filename}`);
   }
 
   // Check folder name matches filename (without .md)

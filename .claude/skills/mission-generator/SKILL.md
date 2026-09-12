@@ -33,7 +33,7 @@ Provide these details about your scenario:
 
 Generate complete markdown content ready to save as:
 ```
-kb-[scenario-slug]-[level]/kb-[scenario-slug]-[level].md
+[scenario-slug]-[level]/[scenario-slug]-[level].md
 ```
 
 Follow this exact structure:

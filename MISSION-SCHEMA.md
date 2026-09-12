@@ -69,23 +69,23 @@ How to expand/adapt the scenario for higher CEFR levels (typically B1+):
 ## File Naming Convention
 
 ```
-kb-[scenario-slug]-[level]/kb-[scenario-slug]-[level].md
+[scenario-slug]-[level]/[scenario-slug]-[level].md
 ```
-- `kb` = "Knowledge Base" scenario (AI-generated structured learning content)
-- `[scenario-slug]` = lowercase, hyphen-separated, descriptive
+- `[scenario-slug]` = lowercase, hyphen-separated, descriptive scenario name
 - `[level]` = CEFR level or level range (a1, a2, b1, b2, or a1-a2)
 - Folder and file have matching names
 
 Examples:
-- `kb-doctor-first-visit-a2/kb-doctor-first-visit-a2.md`
-- `kb-job-interview-b1/kb-job-interview-b1.md`
-- `kb-running-club-first-run-a1-a2/kb-running-club-first-run-a1-a2.md`
+- `doctor-first-visit-a2/doctor-first-visit-a2.md`
+- `job-interview-b1/job-interview-b1.md`
+- `running-club-first-run-a1-a2/running-club-first-run-a1-a2.md`
+- `casual-conversation-a1/casual-conversation-a1.md`
 
 ---
 
 ## Validation Checklist
 
-- [ ] Folder and file names follow `kb-[slug]-[level]` pattern
+- [ ] Folder and file names follow `[slug]-[level]` pattern (no kb- prefix)
 - [ ] Title present as H1 with scenario name
 - [ ] Metadata header with all 3 fields (target language, CEFR level, register)
 - [ ] Key vocabulary table with exactly 8 entries in German | English format
